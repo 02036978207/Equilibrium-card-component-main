@@ -1,0 +1,114 @@
+:root{
+    --Soft-blue: hsl(215, 45%, 71%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30%;
+    background-color: var(--Very-dark-blue-main-BG);
+    font-family: 'Outfit', sans-serif;
+    color: var(--Soft-blue);
+    font-size: 12px;
+}
+
+#card{
+    
+    width: 260px;
+    background-color: var(--Very-dark-blue-card-BG);
+    border-radius: 10px;
+    margin: 12px;
+    
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 14px;
+    margin: 0 15px;
+    color: var(--White);
+   
+}
+.um{
+    margin: 15px 15px 15px 15px;
+    font-size: 14px;
+    color: var(--Soft-blue);
+}
+
+
+
+
+#thiago{
+        display: flex;
+    justify-content: space-between;
+    margin: 15px 15px 0px 15px;
+}
+
+
+.eth{
+    width: 9px;
+    height: 15px;
+    margin: 0px 5px 0px 0px;
+}
+
+.relogio{
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px 0px 0px;
+}
+.dois{
+    color: var(--Cyan);
+}
+#eth{
+    display: flex;
+    
+    
+   
+}
+#days{
+    display: flex;
+    
+    align-items:flex-end;
+    
+}
+
+.homem{
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    
+}
+
+.yellow{
+    color: var(--White);
+}
+
+#avatar{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    border-bottom: 0,1px solid var(--Soft-blue);
+    margin: 15px;
+}
